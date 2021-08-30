@@ -40,7 +40,6 @@ function start() {
   const data = localStorage.getItem('theme') || themeColor.LIGHT;
   refs.body.className = data;
   refs.themeCheckbox.checked = data === themeColor.DARK;
-  return data;
 }
 
 start();
